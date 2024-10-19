@@ -1,48 +1,38 @@
 import streamlit as st
-from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-# Load the model and tokenizer
-model_name = "t5-small"  # You can use any other pre-trained T5 model
-tokenizer = T5Tokenizer.from_pretrained(model_name)
+# Import summarization function
+from transformers import T5ForConditionalGeneration, T5Tokenizer
+
+# Load pre-trained T5 model and tokenizer
+model_name = "t5-small"
 model = T5ForConditionalGeneration.from_pretrained(model_name)
+tokenizer = T5Tokenizer.from_pretrained(model_name)
 
-# Streamlit app title
-st.title("Text Summarization with T5")
+# Function to perform summarization
+def summarize(text):
+    inputs = tokenizer.encode("summarize: " + text, return_tensors="pt", max_length=512, truncation=True)
+    summary_ids = model.generate(
+        inputs, 
+        max_length=150, 
+        min_length=50, 
+        length_penalty=1.0, 
+        num_beams=6, 
+        early_stopping=True)
+    summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
+    return summary
 
-# User input for text to summarize
-input_text = st.text_area("Enter the text you want to summarize", height=200)
+# Streamlit app UI
+st.title("📜 Text Summarization Tool 📑")
 
-# Text input for minimum and maximum length of the summary
-min_length = st.text_input("Enter minimum length of the summary", value="30")
-max_length = st.text_input("Enter maximum length of the summary", value="150")
+# Text input box
+text_input = st.text_area("Enter the text you want to summarize:", height=300)
 
-# Button to trigger summarization
+# If input is given, display the summarized result
 if st.button("Summarize"):
-    if input_text:
-        try:
-            # Convert the input values to integers
-            min_length = int(min_length)
-            max_length = int(max_length)
-
-            # Tokenize the input text
-            inputs = tokenizer.encode("summarize: " + input_text, return_tensors="pt", max_length=512, truncation=True)
-
-            # Generate summary with specified min and max length
-            summary_ids = model.generate(
-                inputs, 
-                max_length=max_length, 
-                min_length=min_length, 
-                length_penalty=1.0, 
-                num_beams=6, 
-                early_stopping=True
-            )
-            summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
-
-            # Display the summary
-            st.subheader("Summary")
-            st.write(summary)
-
-        except ValueError:
-            st.error("Please enter valid numbers for min and max length.")
+    if text_input:
+        with st.spinner("Summarizing..."):
+            summary = summarize(text_input)
+        st.subheader("Summary:")
+        st.write(summary)
     else:
-        st.error("Please enter some text to summarize!")
+        st.error("Please enter the text to summarize.")
