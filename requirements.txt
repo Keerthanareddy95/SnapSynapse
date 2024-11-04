@@ -1,8 +1,7 @@
-transformers==4.45.2
-datasets==3.0.1
-torch==2.4.1
-whisper==1.0.0
-streamlit==1.39.0
-pandas==2.2.3
-numpy==2.1.2
-scikit-learn==1.5.2
+openai
+python-dotenv
+requests
+ffmpeg-python
+rake-nltk
+torch
+pydub
