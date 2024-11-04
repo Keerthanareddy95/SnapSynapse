@@ -1,2 +1,4 @@
-venv
+synapse
 .env
+chunks
+test_audio.wav
