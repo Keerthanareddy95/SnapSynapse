@@ -5,3 +5,4 @@ ffmpeg-python
 rake-nltk
 torch
 pydub
+pyannote.audio
