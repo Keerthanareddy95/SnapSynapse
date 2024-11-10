@@ -6,3 +6,13 @@ rake-nltk
 torch
 pydub
 pyannote.audio
+google-generativeai
+
+pyannote.audio==3.3.2
+openai
+python-dotenv==1.0.1
+pydub==0.25.1
+google-generativeai
+numpy==1.26.4
+matplotlib==3.9.2
+nltk==3.9.1
