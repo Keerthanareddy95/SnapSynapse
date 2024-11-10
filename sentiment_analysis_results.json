@@ -1,0 +1,292 @@
+[
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thank you for calling AT&T. This is Erika speaking. How can I assist you today?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.839,
+            "pos": 0.161,
+            "compound": 0.3612
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "I got a call informing me, You may be eligible for a free upgrade",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.752,
+            "pos": 0.248,
+            "compound": 0.5106
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Could you please confirm your phone number for me? 4-0-6-5-3-9-1-2-0-2.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.69,
+            "pos": 0.31,
+            "compound": 0.3818
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "Yes",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.0,
+            "pos": 1.0,
+            "compound": 0.4019
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Great, let me repeat that: 4-0-6-5-3-9-1-2-0-2. Is that correct?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.661,
+            "pos": 0.339,
+            "compound": 0.6249
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "Yes, Thank you.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.161,
+            "pos": 0.839,
+            "compound": 0.6369
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "I received a notice about a device upgrade offer for the Blackbird Torch.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "I can help with that! Before we proceed, I need to verify some information for security purposes. Could you confirm the account holder's full name?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.796,
+            "pos": 0.204,
+            "compound": 0.6588
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "Josh Milligan.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thank you, Mr. Milligan. Could you also provide your billing zip code?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.815,
+            "pos": 0.185,
+            "compound": 0.3612
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "59714.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "And the last four digits of your Social Security number?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.684,
+            "pos": 0.316,
+            "compound": 0.4019
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thank you for that verification.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.615,
+            "pos": 0.385,
+            "compound": 0.3612
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "To confirm, you're interested in taking advantage of the Blackbird Torch upgrade offer, correct?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.719,
+            "pos": 0.281,
+            "compound": 0.5719
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "Yes.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.0,
+            "pos": 1.0,
+            "compound": 0.4019
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Great! I'll complete the information for the upgrade. Your new device should arrive within 3 to 5 business days, and the exchange will be processed within 24 hours.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.851,
+            "pos": 0.149,
+            "compound": 0.6588
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Please keep your current phone until you receive the new one. If you donâ€™t return it within 30 days, a $150 fee will apply.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.905,
+            "pos": 0.095,
+            "compound": 0.3182
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Also, remember to move your SIM card from the old phone to the new one.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "You'll receive a Customer Service Summary with your new plan details. Any activation fee listed wonâ€™t apply to you, no charges there. If you have questions, feel free to call us.",
+        "sentiment": {
+            "neg": 0.124,
+            "neu": 0.78,
+            "pos": 0.095,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "dial 611 from your AT&T handset.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "I'll send a return label for your old device. Would you prefer it by email or at your shipping address?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": ", we'll send it to 98 Miles and Drive, Bellevue, Montana, 59714. Is that correct?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "And will this be the same address for the Blackbird Torch delivery?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Once you receive the return label, attach it to the box and drop it at any USPS location.",
+        "sentiment": {
+            "neg": 0.11,
+            "neu": 0.89,
+            "pos": 0.0,
+            "compound": -0.2732
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thatâ€™s all set on my end. Do you have any other questions about the upgrade process, Mr. Milligan?",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "transcription": "No, I think that's everything.",
+        "sentiment": {
+            "neg": 0.423,
+            "neu": 0.577,
+            "pos": 0.0,
+            "compound": -0.296
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thank you for choosing AT&T. We appreciate your business. Have a great day!",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.484,
+            "pos": 0.516,
+            "compound": 0.8622
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Goodbye.",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 1.0,
+            "pos": 0.0,
+            "compound": 0.0
+        }
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "transcription": "Thank you for listening to our podcast. Discover more about our services...",
+        "sentiment": {
+            "neg": 0.0,
+            "neu": 0.815,
+            "pos": 0.185,
+            "compound": 0.3612
+        }
+    }
+]
