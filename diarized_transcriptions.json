@@ -3,109 +3,85 @@
         "speaker": "SPEAKER_00",
         "start_time": 1.24596875,
         "end_time": 6.40971875,
-        "transcription": "Thanks for calling AT&T, my name is Erika, you can have your wireless now for no more than $0.00, call hereby today."
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 7.50659375,
-        "end_time": 16.72034375,
-        "transcription": "4-0-6-5-3-9-1-2-0-2 Okay, can you repeat that number once again? 4-0-6-5-3-9-1-2-0-2, is that correct?"
+        "transcription": "Thank you for calling AT&T. This is Erika speaking. How can I assist you today?"
     },
     {
         "speaker": "SPEAKER_01",
-        "start_time": 7.5572187500000005,
-        "end_time": 8.164718750000002,
-        "transcription": "Oh, yes."
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start_time": 10.425968750000003,
-        "end_time": 11.117843750000002,
-        "transcription": ""
+        "start_time": 6.40971875,
+        "end_time": 10.61045486,
+        "transcription": "I got a call informing me, You may be eligible for a free upgrade"
     },
     {
         "speaker": "SPEAKER_00",
+        "start_time": 10.61045486,
+        "end_time": 13.72034375,
+        "transcription": "Could you please confirm your phone number for me? 4-0-6-5-3-9-1-2-0-2."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start_time": 13.72034375,
+        "end_time": 14.50812153,
+        "transcription": "Yes"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start_time": 13.72034375,
+        "end_time": 17.50812153,
+        "transcription": "Great, let me repeat that: 4-0-6-5-3-9-1-2-0-2. Is that correct?"
+    },
+    {
+        "speaker": "SPEAKER_01",
         "start_time": 17.63159375,
         "end_time": 19.09971875,
-        "transcription": "Yes."
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start_time": 17.68221875,
-        "end_time": 18.03659375,
-        "transcription": "Yes."
+        "transcription": "Yes, Thank you."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 20.98971875,
         "end_time": 24.246593750000002,
-        "transcription": "Oh, I got the status saying I can get the Blackbird torch."
+        "transcription": "I received a notice about a device upgrade offer for the Blackbird Torch."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 26.96346875,
         "end_time": 35.21534375,
-        "transcription": "We cannot warrant any more detentions. Leaving that, before we proceed, for security reasons of your account, can you please verify some information for me first?"
+        "transcription": "I can help with that! Before we proceed, I need to verify some information for security purposes. Could you confirm the account holder's full name?"
     },
     {
-        "speaker": "SPEAKER_00",
-        "start_time": 36.49784375,
-        "end_time": 40.37909375,
-        "transcription": "Yep. Can you have the first and last name of the account holder?"
-    },
-    {
-        "speaker": "SPEAKER_00",
+        "speaker": "SPEAKER_01",
         "start_time": 41.25659375,
         "end_time": 42.353468750000005,
-        "transcription": "Cehenneme gel."
+        "transcription": "Josh Milligan."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 44.90159375,
         "end_time": 47.196593750000005,
-        "transcription": "And who am I speaking with today, if I may ask?"
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 48.07409375,
-        "end_time": 48.61409375,
-        "transcription": "Josh."
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 49.35659375,
-        "end_time": 53.204093750000006,
-        "transcription": "Okay, Mr. Milligan, can you please verify the bill and zip code?"
+        "transcription": "Thank you, Mr. Milligan. Could you also provide your billing zip code?"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 55.330343750000004,
         "end_time": 56.98409375000001,
-        "transcription": "59714"
+        "transcription": "59714."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 58.84034375,
         "end_time": 62.85659375,
-        "transcription": "Also the last four digits of your social security number."
+        "transcription": "And the last four digits of your Social Security number?"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 64.02096875000001,
         "end_time": 66.75471875000001,
-        "transcription": "Thank you very much for that information."
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start_time": 64.84784375000001,
-        "end_time": 65.11784375,
-        "transcription": ""
+        "transcription": "Thank you for that verification."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 67.41284375000001,
         "end_time": 74.98971875000001,
-        "transcription": "Just to make it clear today, I understand you currently received a letter regarding the Black Bear Torch, and do you want to take advantage of this offer?"
+        "transcription": "To confirm, you're interested in taking advantage of the Blackbird Torch upgrade offer, correct?"
     },
     {
         "speaker": "SPEAKER_01",
@@ -115,134 +91,86 @@
     },
     {
         "speaker": "SPEAKER_00",
-        "start_time": 75.98534375,
-        "end_time": 76.52534375,
-        "transcription": "Yes."
-    },
-    {
-        "speaker": "SPEAKER_00",
         "start_time": 77.14971875,
         "end_time": 90.86909375,
-        "transcription": "Okay, I'd be more than happy to assist you with that. I'll be filling out all the information needed for the exchange, and it will be processed within 24 hours from now. And I just wanted to let you know that the new device will arrive within 3 to 5 business days."
+        "transcription": "Great! I'll complete the information for the upgrade. Your new device should arrive within 3 to 5 business days, and the exchange will be processed within 24 hours."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 92.11784375,
         "end_time": 104.25096875000001,
-        "transcription": "Please do not return old phones until you receive the new device. And I just want to let you know that if the original phone does not return within 30 days, you will be subject to a $150 charge to bail your account."
+        "transcription": "Please keep your current phone until you receive the new one. If you don’t return it within 30 days, a $150 fee will apply."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 104.99346875,
         "end_time": 110.35971875000001,
-        "transcription": "Also, please don't forget to take the SIM card out of the original phone and place it in the new phone, okay?"
+        "transcription": "Also, remember to move your SIM card from the old phone to the new one."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 111.28784375000001,
         "end_time": 128.56784375,
-        "transcription": "And also you will be receiving a Customer Service Summary that outlines your ADD service by ADD features by email or US Mail. This summary will include an activation fee, however, this is not applied to you and you will not be charged. We do apologize for any confusion this may cause and if you have any further questions regarding this..."
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start_time": 111.35534375,
-        "end_time": 111.74346875,
-        "transcription": ""
+        "transcription": "You'll receive a Customer Service Summary with your new plan details. Any activation fee listed won’t apply to you, so no charges there. If you have questions, feel free to call us."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 129.19221875,
         "end_time": 132.33096875,
-        "transcription": "Please feel free to dial 611 from your ATT handset, okay?"
+        "transcription": "Just dial 611 from your AT&T handset."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 133.46159375000002,
         "end_time": 145.45971875,
-        "transcription": "And I'll be sending a return label as well for you to return the old device. I'm just going to verify where they want me to send their return label. Do you want me to send it via email or to your shipping address?"
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 146.82659375,
-        "end_time": 147.40034375000002,
-        "transcription": ""
+        "transcription": "I'll send a return label for your old device. Would you prefer it by email or at your shipping address?"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 148.00784375,
         "end_time": 154.99409375000002,
-        "transcription": "Okay, I'm just going to verify that it would be 98 Miles and Drive, Bellevue, Montana."
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 156.07409375,
-        "end_time": 157.93034375000002,
-        "transcription": "59714, is that correct?"
+        "transcription": "Okay, we'll send it to 98 Miles and Drive, Bellevue, Montana, 59714. Is that correct?"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 158.87534375,
         "end_time": 163.46534375000002,
-        "transcription": "Yes. Okay, and is this the same address where I'm going to ship the Blockfire Torch?"
+        "transcription": "And will this be the same address for the Blackbird Torch delivery?"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 164.25846875000002,
         "end_time": 171.05909375000002,
-        "transcription": "Okay, and also once you receive the return label, just simply affix it to the phone box."
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 172.51034375,
-        "end_time": 173.03346875,
-        "transcription": "box. "
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 175.36221875,
-        "end_time": 178.60221875000002,
-        "transcription": "Drop it in what? In any USB-S loophole."
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start_time": 175.54784375,
-        "end_time": 176.37471875,
-        "transcription": ""
+        "transcription": "Once you receive the return label, just attach it to the box and drop it at any USPS location."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 179.80034375000002,
         "end_time": 188.35596875000002,
-        "transcription": "Okay. Okay. So I'm done filling out all the information needed here for the exchange. So do you have any questions regarding the information that I provided you, Mr. Milligan?"
+        "transcription": "That’s all set on my end. Do you have any other questions about the upgrade process, Mr. Milligan?"
     },
     {
-        "speaker": "SPEAKER_00",
+        "speaker": "SPEAKER_01",
         "start_time": 189.52034375000002,
         "end_time": 191.59596875000003,
-        "transcription": "No. Is there anything else I can help you with?"
+        "transcription": "No, I think that's everything."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 192.94596875000002,
         "end_time": 198.41346875000002,
-        "transcription": "I don't think so. Okay. We do value and appreciate your business. Thank you for calling AT&T and have a great day."
+        "transcription": "Thank you for choosing AT&T. We appreciate your business. Have a great day!"
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 199.29096875000002,
         "end_time": 201.13034375,
-        "transcription": "Thank you. Okay, goodbye."
-    },
-    {
-        "speaker": "SPEAKER_00",
-        "start_time": 201.75471875000002,
-        "end_time": 202.27784375000002,
-        "transcription": "What?"
+        "transcription": "Goodbye."
     },
     {
         "speaker": "SPEAKER_00",
         "start_time": 203.18909375,
         "end_time": 206.61471875,
-        "transcription": "Thank you for listening to our podcast. Find out more about our service..."
+        "transcription": "Thank you for listening to our podcast. Discover more about our services..."
     }
 ]
