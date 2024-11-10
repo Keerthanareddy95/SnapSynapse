@@ -1,54 +1,54 @@
-import openai
 import os
+from pyannote.audio import Pipeline
+import openai
 import json
 from dotenv import load_dotenv
 from pydub import AudioSegment
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
+client = openai.OpenAI()
 
-from openai import OpenAI
-client = OpenAI()
+# Load the speaker diarization pipeline
+diarization_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization")
 
-def split_audio(file_path, chunk_duration_ms=90000):
-    # Load the audio file
+def perform_diarization(file_path):
+    # Run speaker diarization on the audio file
+    diarization_result = diarization_pipeline(file_path)
+    return diarization_result
+
+def transcribe_with_diarization(file_path):
+    diarization_result = perform_diarization(file_path)
     audio = AudioSegment.from_file(file_path)
-    # Split the audio into chunks of the specified duration
-    chunks = [audio[i:i + chunk_duration_ms] for i in range(0, len(audio), chunk_duration_ms)]
-    return chunks
+    transcriptions = []
 
-def whisper_transcription(audio_chunks):
-    all_transcriptions = []  # List to store transcriptions from all chunks
-
-    for i, chunk in enumerate(audio_chunks):
-        # Export each chunk as a .wav file
-        chunk_filename = f"chunk_{i}.wav"
-        chunk.export(chunk_filename, format="wav")
+    for segment, _, speaker in diarization_result.itertracks(yield_label=True):
+        start_time_ms = int(segment.start * 1000)
+        end_time_ms = int(segment.end * 1000)
+        chunk = audio[start_time_ms:end_time_ms]
         
-        # Transcribe the audio chunk
+        chunk_filename = f"{speaker}_segment_{int(segment.start)}.wav"
+        chunk.export(chunk_filename, format="wav")
+
         with open(chunk_filename, "rb") as audio_file:
             transcription = client.audio.transcriptions.create(
                 model="whisper-1",
                 file=audio_file,
                 response_format="json"
             )
-            # Extract the 'text' field from the response
-            transcription_text = transcription.text
+            transcriptions.append({
+                "speaker": speaker,
+                "start_time": segment.start,
+                "end_time": segment.end,
+                "transcription": transcription.text
+            })
+        print(f"Transcription for {chunk_filename} by {speaker} completed.")
 
-        # Append the transcription to the list
-        all_transcriptions.append({
-            "chunk_id": i,
-            "transcription": transcription_text
-        })
-        
-        print(f"Transcription for {chunk_filename} completed.")
+    # Save the transcriptions to a JSON file
+    with open("diarized_transcriptions.json", "w") as json_file:
+        json.dump(transcriptions, json_file, indent=4)
 
-    # Save all transcriptions to a single JSON file
-    with open("transcriptions_generated.json", "w") as json_file:
-        json.dump(all_transcriptions, json_file, indent=4)
+    print("Diarized transcriptions saved to 'diarized_transcriptions.json'.")
 
-    print("All transcriptions saved to 'transcriptions_generated.json'.")
-
-# Split the audio into smaller parts and transcribe
-audio_chunks = split_audio("test_audio_1.wav")
-whisper_transcription(audio_chunks)
+# Run the function on your audio file
+transcribe_with_diarization("test_audio_1.wav")
